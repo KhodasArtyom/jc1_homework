@@ -24,7 +24,6 @@ public class Task3 {
 
         boolean bool = true;
         System.out.println(bool);
-        System.out.println();
 
 
     }
