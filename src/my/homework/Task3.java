@@ -12,6 +12,7 @@ public class Task3 {
         System.out.println(i);
 
         long l = 0xffffffffL;
+        System.out.println(l);
 
         char c = 'a';
         System.out.println(c);
