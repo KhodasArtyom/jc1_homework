@@ -2,7 +2,8 @@ package my.homework;
 
 public class Task11 {
     public static void main(String[] args) {
-        System.out.println(weekDay(2));
+
+        System.out.println(weekDay(8));
 
 
     }
@@ -23,9 +24,9 @@ public class Task11 {
         } else if ( x ==7) {
             System.out.println("Воскресенье. Требуется отдохнуть перед рабочей неделей");
 
+        } else {
+            System.out.println("Дни недели закончились");
         }
         return x;
-
-
     }
 }
