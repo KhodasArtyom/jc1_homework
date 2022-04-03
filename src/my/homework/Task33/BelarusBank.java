@@ -1,32 +1,34 @@
-package my.homework.BankCard;
+package my.homework.Task33;
 
- class SberbankCard extends BankCard{
+public class BelarusBank extends BankCard {
     private String bankName;
     private int id;
     private int password;
     private double money;
 
-    public SberbankCard(String bankName, int id, int password, double money) {
+    public BelarusBank(String bankName, int id, int password, double money) {
         this.bankName = bankName;
         this.id = id;
         this.password = password;
-        this. money = money;
+        this.money = money;
     }
+
 
     @Override
     protected void saveMoney(int money) {
-        if(money < money){
+        if (money < money) {
             System.out.println("Error.Check your balance");
         }
-        this.money+=money;
+        this.money += money;
         System.out.println("Your balance is: " + this.money);
     }
+
     @Override
     protected void withdraw(int money) {
-        if(this.money >= money) {
+        if (this.money >= money) {
             this.money -= money;
             System.out.println("Balance is " + this.money);
-        }
 
+        }
     }
 }

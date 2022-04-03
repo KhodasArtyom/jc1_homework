@@ -1,4 +1,4 @@
-package my.homework.BankCard;
+package my.homework.Task33;
 
 public abstract class BankCard {
 

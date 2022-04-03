@@ -1,4 +1,4 @@
-package my.homework.BankCard;
+package my.homework.Task33;
 
 public class Main {
     public static void main(String[] args) {
