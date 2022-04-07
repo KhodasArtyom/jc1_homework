@@ -1,4 +1,4 @@
-package Task35;
+package my.homework.Task35;
 
 public enum Season {
     SPRING,
