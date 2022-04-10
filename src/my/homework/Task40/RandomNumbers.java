@@ -15,7 +15,7 @@ public class RandomNumbers {
         }
         System.out.println("Массив из элементов: " + arrayList);
 
-        arrayList.stream().distinct();
+
         Set<Integer> set = new LinkedHashSet<>(arrayList);
         System.out.println("Масив без повторяющихся элеметов" + set);
 
