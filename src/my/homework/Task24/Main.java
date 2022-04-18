@@ -1,4 +1,4 @@
-package Task24;
+package my.homework.Task24;
 
 public class Main {
     // Как получилось и как я понимаю эту задачу.

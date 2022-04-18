@@ -1,4 +1,4 @@
-package Task24;
+package my.homework.Task24;
 
 public class TimeInterval {
     private int hour;
