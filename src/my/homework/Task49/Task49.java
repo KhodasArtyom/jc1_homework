@@ -45,6 +45,7 @@ public class Task49 {
 
         }
         System.out.println("Среднее арифмитическое: " + average);
+        System.out.println();
 
 
 
