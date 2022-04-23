@@ -21,11 +21,9 @@ public class Main {
         Person person10 = new Person("Zack", "Snayder", 25);
 
 
-        DataOutputStream dos;
 
-        {
             try {
-                dos = new DataOutputStream(new FileOutputStream("data2.bin"));
+                DataOutputStream dos = new DataOutputStream(new FileOutputStream("data2.bin"));
                 dos.writeUTF(person1.name);
                 dos.writeUTF(person1.surname);
                 dos.writeInt(person1.age);
@@ -66,10 +64,13 @@ public class Main {
                 dos.writeUTF(person10.surname);
                 dos.writeInt(person10.age);
 
+                dos.close();
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
         }
 
+
     }
-}
