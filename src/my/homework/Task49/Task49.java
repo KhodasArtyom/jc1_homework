@@ -1,4 +1,4 @@
-package my.homework;
+package my.homework.Task49;
 
 import java.io.*;
 import java.util.ArrayList;
